@@ -19,9 +19,33 @@ namespace MotoDB.Controllers
         }
 
         // GET: Motorcycles
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string MotoType, string searchString)
         {
-            return View(await _context.Motorcycle.ToListAsync());
+            // Use LINQ to get list of types.
+            IQueryable<string> typeQuery = from m in _context.Motorcycle
+                                            orderby m.Type
+                                            select m.Type;
+
+            var motorcycles = from m in _context.Motorcycle
+                         select m;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                motorcycles = motorcycles.Where(s => s.Make.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(MotoType))
+            {
+                motorcycles = motorcycles.Where(x => x.Type == MotoType);
+            }
+
+            var MotoTypeVM = new MotoTypeViewModel
+            {
+                Type = new SelectList(await typeQuery.Distinct().ToListAsync()),
+                Motorcycles = await motorcycles.ToListAsync()
+            };
+
+            return View(MotoTypeVM);
         }
 
         // GET: Motorcycles/Details/5
