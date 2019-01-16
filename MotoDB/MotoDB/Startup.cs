@@ -48,7 +48,7 @@ namespace MotoDB
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Motorcycles/Error");
             }
 
             app.UseStaticFiles();

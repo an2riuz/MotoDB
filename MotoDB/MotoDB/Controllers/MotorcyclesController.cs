@@ -172,5 +172,17 @@ namespace MotoDB.Controllers
         {
             return _context.Motorcycle.Any(e => e.Id == id);
         }
+
+        public IActionResult About()
+        {
+            ViewData["Message"] = "Your application description page.";
+
+            return View();
+        }
+
+        public IActionResult Error()
+        {
+            return View();
+        }
     }
 }
