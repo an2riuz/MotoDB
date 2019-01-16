@@ -53,7 +53,7 @@ namespace MotoDB
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Moto}/{action=Index}/{id?}");
             });
         }
     }
