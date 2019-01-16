@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using MotoDB.Models;
 
 namespace MotoDB
 {
@@ -32,6 +34,9 @@ namespace MotoDB
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddDbContext<MotoDBContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("MotoDBContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,7 +58,7 @@ namespace MotoDB
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Moto}/{action=Index}/{id?}");
+                    template: "{controller=Motorcycles}/{action=Index}/{id?}");
             });
         }
     }
