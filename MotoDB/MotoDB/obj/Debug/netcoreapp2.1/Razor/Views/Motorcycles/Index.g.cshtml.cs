@@ -66,7 +66,7 @@ using MotoDB.Models;
             WriteLiteral("\r\n<h2>My Motorcycles List</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(143, 37, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "acee962f796f4fa89bf9073dd5adc3bc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7eb88bd38d2d49c995b48c662eaa6fb0", async() => {
                 BeginContext(166, 10, true);
                 WriteLiteral("Create New");
                 EndContext();
@@ -216,7 +216,7 @@ using MotoDB.Models;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(1565, 53, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cb644e94d4254f61a8487fd4beff9bb7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "426d034910ef435394c60d378a609ba6", async() => {
                 BeginContext(1610, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -251,7 +251,7 @@ using MotoDB.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1638, 59, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0a31c92b1cf34e128651dde437fa1ac2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a6dc5cceb0a14f3b9d9895452b19eb3e", async() => {
                 BeginContext(1686, 7, true);
                 WriteLiteral("Details");
                 EndContext();
@@ -286,7 +286,7 @@ using MotoDB.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1717, 57, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "99bc0735a7694fc59900d9f95a2c2789", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7c902882da9e4bc9b2bd47b1eb31b400", async() => {
                 BeginContext(1764, 6, true);
                 WriteLiteral("Delete");
                 EndContext();

@@ -30,8 +30,6 @@ C:\Users\Andrius\Documents\GitHub\MotoDB\MotoDB\MotoDB\obj\Debug\netcoreapp2.1\M
 C:\Users\Andrius\Documents\GitHub\MotoDB\MotoDB\MotoDB\obj\Debug\netcoreapp2.1\MotoDB.dll
 C:\Users\Andrius\Documents\GitHub\MotoDB\MotoDB\MotoDB\obj\Debug\netcoreapp2.1\MotoDB.pdb
 C:\Users\Andrius\Documents\GitHub\MotoDB\MotoDB\MotoDB\obj\Debug\netcoreapp2.1\MotoDB.csproj.CopyComplete
-C:\Users\Andrius\Documents\GitHub\MotoDB\MotoDB\MotoDB\obj\Debug\netcoreapp2.1\Razor\Views\Moto\Index.g.cshtml.cs
-C:\Users\Andrius\Documents\GitHub\MotoDB\MotoDB\MotoDB\obj\Debug\netcoreapp2.1\Razor\Views\Moto\Welcome.g.cshtml.cs
 C:\Users\Andrius\Documents\GitHub\MotoDB\MotoDB\MotoDB\obj\Debug\netcoreapp2.1\Razor\Views\Motorcycles\Create.g.cshtml.cs
 C:\Users\Andrius\Documents\GitHub\MotoDB\MotoDB\MotoDB\obj\Debug\netcoreapp2.1\Razor\Views\Motorcycles\Delete.g.cshtml.cs
 C:\Users\Andrius\Documents\GitHub\MotoDB\MotoDB\MotoDB\obj\Debug\netcoreapp2.1\Razor\Views\Motorcycles\Details.g.cshtml.cs
