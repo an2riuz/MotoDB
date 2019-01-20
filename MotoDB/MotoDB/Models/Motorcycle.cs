@@ -16,6 +16,7 @@ namespace MotoDB.Models
 
         [Display(Name = "Engine Capacity")]
         public int EngineCapacity { get; set; }
+        
         public int Year { get; set; }
         public string Description { get; set; }
     }

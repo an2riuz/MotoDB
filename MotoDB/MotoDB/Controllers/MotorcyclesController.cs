@@ -173,6 +173,11 @@ namespace MotoDB.Controllers
             return _context.Motorcycle.Any(e => e.Id == id);
         }
 
+        public IActionResult Statistics()
+        {
+            return View();
+        }
+
         public IActionResult About()
         {
             return View();

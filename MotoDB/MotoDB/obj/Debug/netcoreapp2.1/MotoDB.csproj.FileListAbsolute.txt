@@ -32,3 +32,4 @@ C:\Users\Andrius\Documents\GitHub\MotoDB\MotoDB\MotoDB\obj\Debug\netcoreapp2.1\R
 C:\Users\Andrius\Documents\GitHub\MotoDB\MotoDB\MotoDB\obj\Debug\netcoreapp2.1\Razor\Views\Motorcycles\Edit.g.cshtml.cs
 C:\Users\Andrius\Documents\GitHub\MotoDB\MotoDB\MotoDB\obj\Debug\netcoreapp2.1\Razor\Views\Motorcycles\Index.g.cshtml.cs
 C:\Users\Andrius\Documents\GitHub\MotoDB\MotoDB\MotoDB\obj\Debug\netcoreapp2.1\Razor\Views\Motorcycles\About.g.cshtml.cs
+C:\Users\Andrius\Documents\GitHub\MotoDB\MotoDB\MotoDB\obj\Debug\netcoreapp2.1\Razor\Views\Motorcycles\Statistics.g.cshtml.cs
