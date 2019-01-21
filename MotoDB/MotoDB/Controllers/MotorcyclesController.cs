@@ -175,6 +175,8 @@ namespace MotoDB.Controllers
 
         public IActionResult Statistics()
         {
+            int totalCount = _context.Motorcycle.Count();
+            ViewBag.totalCount = totalCount;
             return View();
         }
 
